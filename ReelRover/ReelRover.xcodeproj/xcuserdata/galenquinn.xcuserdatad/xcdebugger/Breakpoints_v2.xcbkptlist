@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "56B6F974-584F-4CBD-8041-1EDB6C8BD4FD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F7B5D1A-B2C7-4C0B-8AAA-A0741B35E6DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReelRover/UI/Screens/Search/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "searchForMovie()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F7B5D1A-B2C7-4C0B-8AAA-A0741B35E6DA - f9efc0808fb67a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ReelRover.SearchViewModel.searchForMovie() async -&gt; ()"
+                  moduleName = "ReelRover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galenquinn/Documents/Github/reelrover-ios/ReelRover/ReelRover/UI/Screens/Search/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "8F7B5D1A-B2C7-4C0B-8AAA-A0741B35E6DA - f7dfce1b63d93604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ReelRover.SearchViewModel.searchForMovie() async -&gt; Swift.Array&lt;ReelRover.MovieModel&gt;"
+                  moduleName = "ReelRover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/galenquinn/Documents/Github/reelrover-ios/ReelRover/ReelRover/UI/Screens/Search/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FF65C74-1A7F-42EA-A332-96D45209241D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../var/folders/0k/6wgzl6_12hj5640vbwhtfbg40000gn/T/swift-generated-sources/@__swiftmacro_9ReelRover21LastSearchResultsViewV04lastdE05QueryfMa_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05F2043F-2DCF-4A24-B642-B6D8757F5C1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../var/folders/0k/6wgzl6_12hj5640vbwhtfbg40000gn/T/swift-generated-sources/@__swiftmacro_9ReelRover21LastSearchResultsViewV04lastdE05QueryfMa_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
