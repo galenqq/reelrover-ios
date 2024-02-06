@@ -3,7 +3,11 @@ import CachedImage
 
 struct MovieCell: View {
     
+    // MARK: - Init
+    
     var movie: Movie
+    
+    // MARK: - Body
     
     var body: some View {
         HStack(alignment: .top, spacing: 15) {

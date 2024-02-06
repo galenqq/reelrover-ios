@@ -16,7 +16,8 @@ final class TMBDGateway: TMBDGatewayProtocol {
     
     /// Adds or removes a movie to your favorites list.
     ///
-    /// - Parameter id: The associated id attached to the movie.
+    /// - Parameter mediaId: The associated id attached to the movie.
+    /// - Parameter addToFavorites: Whether we are adding or removing from favorites.
     func updateMovieFavoriteStatus(
         for mediaId: Int,
         addToFavorites: Bool
@@ -85,7 +86,7 @@ final class TMBDGateway: TMBDGatewayProtocol {
     }
     
     
-    /// Creates the needed headers for TMBD requests.
+    /// Creates the required headers for TMBD requests.
     ///
     /// - Returns: HTTPHeaders needed for TMBD requests.
     internal func headers() -> HTTPHeaders {

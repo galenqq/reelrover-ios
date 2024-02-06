@@ -2,14 +2,11 @@ import Foundation
 
 /// Model which helps parse our errors. 
 struct ErrorModel {
+    
+    // MARK: - Init
+    
     let title: String
     let message: String
-    
-    var description: String {
-        return title.isEmpty
-            ? message
-            : "\(title)\n\(message)"
-    }
     
     init(_ error: Error?) {
         guard let error = error as? LocalizedError else {
@@ -33,8 +30,17 @@ struct ErrorModel {
         self.title = "Error"
         self.message = customMessage
     }
+    
+    // MARK: - Helper
+    
+    var description: String {
+        return title.isEmpty
+            ? message
+            : "\(title)\n\(message)"
+    }
 }
 
+/// Default unknown error for rare situations where an error cannot be parsed. 
 struct UnknownError: Error, LocalizedError, Equatable {
     var failureReason: String? {
         return "Error"

@@ -9,7 +9,7 @@ struct LastSearchResultsView: View {
     
     @Query(sort: \MovieModel.timestamp) var lastSearchResults: [MovieModel]
     
-    // MARK: - CoreData
+    // MARK: - Body
     
     var body: some View {
         List {

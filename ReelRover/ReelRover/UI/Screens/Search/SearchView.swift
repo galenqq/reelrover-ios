@@ -36,6 +36,8 @@ struct SearchView: View {
                 return
             }
             
+            // Note that this is my first time using SwiftData, and that these errors should be handled.
+            // For the sake of making this project in a day, I used `try?` to keep things simple.
             Task {
                 // 1. We clear the prior last search results.
                 try? modelContext.delete(model: MovieModel.self)

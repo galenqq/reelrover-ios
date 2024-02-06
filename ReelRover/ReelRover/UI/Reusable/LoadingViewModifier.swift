@@ -2,7 +2,12 @@ import SwiftUI
 
 /// Helper struct which allows for a full screen modal loader to be attached to a view easily.
 struct LoadingViewModifier: ViewModifier {
+    
+    // MARK: - Init
+    
     @Binding var isLoading: Bool
+    
+    // MARK: - Body
     
     func body(content: Content) -> some View {
         content

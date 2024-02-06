@@ -20,7 +20,6 @@ struct Movie: Codable, Equatable {
 
 // Helpers
 extension Movie {
-    
     var posterURL: URL? {
         guard let path = poster_path else {
             return nil

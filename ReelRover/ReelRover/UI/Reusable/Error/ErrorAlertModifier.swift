@@ -3,20 +3,11 @@ import SwiftUI
 /// Helper struct which allows for an error to be processed as an alert easily.
 struct ErrorAlertModifier: ViewModifier {
     
+    // MARK: - Init
+    
     @Binding var error: Error?
     
-    private var isPresented: Binding<Bool> {
-        Binding(
-            get: {
-                error != nil
-            },
-            set: {
-                if $0 == false { error = nil }
-            }
-        )
-    }
-    
-    private var errorModel: ErrorModel { ErrorModel(error) }
+    // MARK: - Body
     
     func body(content: Content) -> some View {
         content
@@ -33,6 +24,21 @@ struct ErrorAlertModifier: ViewModifier {
                 }
             )
     }
+    
+    // MARK: - Helpers
+    
+    private var isPresented: Binding<Bool> {
+        Binding(
+            get: {
+                error != nil
+            },
+            set: {
+                if $0 == false { error = nil }
+            }
+        )
+    }
+    
+    private var errorModel: ErrorModel { ErrorModel(error) }
 }
 
 

@@ -3,6 +3,8 @@ import SwiftUI
 /// View that displays movie in a list.
 struct MovieResultsView: View {
     
+    // MARK: - Init
+    
     var movies: [Movie]
     
     /// This is a temporary solution to resolve a SwiftUI issue where `.task`, and `.onAppear` are not called
@@ -11,6 +13,9 @@ struct MovieResultsView: View {
     /// Given more time, creating a repository layer that utilizes `Combine`, between the ViewModels and Gateways
     /// would provide a better source of truth for which movies are favorited or not. 
     var favoritesUpdated: (() -> Void)?
+    
+    
+    // MARK: - Body
     
     var body: some View {
         List(movies, id: \.id) { movie in
