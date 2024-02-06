@@ -1,5 +1,9 @@
 # reelrover-ios
 
+This was an app I made for an interview in less than a day. It roughly follows an MVVM architecture, was built with SwiftUI, and has a min version of iOS 17. I tried to dive into some new technologies such as SwiftData, and had some success, although I would've liked to spend more time on it to develop a comprehensive solution. I also experimented with the @Observable macro, but I ended up reverting to using ObservableObject.
+
+Given more time, there's several changes I would make. I have noted these proposed changes in the code. Primarily, I would've liked to create a repository layer to manage polling, and data distribution from the network gateways to different view models.
+
 ## Setup Instructions
 
 ### 1. Download the Latest Xcode from the App Store
